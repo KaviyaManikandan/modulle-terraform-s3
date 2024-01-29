@@ -4,9 +4,12 @@ This Terraform module creates an S3 bucket in AWS with customizable settings.
 
 ## Features
 
-- **Bucket Name (Required):** The name of the S3 bucket.
-- **Bucket ACL (Optional, Default: "private"):** The access control list (ACL) for the bucket.
-- **Versioning (Optional, Default: false):** Whether versioning should be enabled for the bucket.
+## Features
+
+- Creates an S3 bucket with customizable configurations.
+- Supports enabling versioning for the bucket.
+- Configurable server-side encryption for objects.
+- Blocks public access to the bucket by default.
 
 This module follows best practices for Terraform module structure, uses variables and outputs appropriately, and makes use of the official AWS provider.
 
