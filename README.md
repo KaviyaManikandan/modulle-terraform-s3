@@ -19,7 +19,7 @@ provider "aws" {
 }
 
 module "s3-bucket" {
-  source     = "/home/kaviya/Desktop/devops/modules/s3-bucket"
+  source     = "git::"
   bucket_name = "kaviyamanikandanbuc"
   bucket_acl  = "private"
   
