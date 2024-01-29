@@ -14,10 +14,10 @@ This module follows best practices for Terraform module structure, uses variable
 ## Usage
 
 ```hcl
-provider "aws" {
-  region = "us-east-1"
-}
 
 module "s3-bucket" {
   source     = "git::https://github.com/KaviyaManikandan/terraform-s3-module.git"
+  bucket_name = "example-bucket"
+  bucket_acl  = "private"
+  versioning  = true
 }
