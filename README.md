@@ -19,7 +19,6 @@ This module follows best practices for Terraform module structure, uses variable
 module "s3_bucket" {
   source  = "git::https://github.com/KaviyaManikandan/terraform-s3-module.git"
   bucket_name = "kaviyamanikandanbuc"
-  bucket_acl = "private"
   versioning = true
 }
 
