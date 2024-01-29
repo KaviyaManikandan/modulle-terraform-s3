@@ -19,7 +19,7 @@ provider "aws" {
 }
 
 module "s3-bucket" {
-  source     = "git::"
+  source     = "git::https://github.com/KaviyaManikandan/terraform-s3-module.git"
   bucket_name = "kaviyamanikandanbuc"
   bucket_acl  = "private"
   
