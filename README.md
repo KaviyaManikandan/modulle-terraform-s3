@@ -18,7 +18,7 @@ This module follows best practices for Terraform module structure, uses variable
 ```hcl
 module "s3_bucket" {
   source  = "git::https://github.com/KaviyaManikandan/terraform-s3-module.git"
-  bucket_name = "my-bucket"
+  bucket_name = "kaviyamanikandanbuc"
   bucket_acl = "private"
   versioning = true
 }
