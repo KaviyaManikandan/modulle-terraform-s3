@@ -17,7 +17,3 @@ module "s3-bucket" {
   versioning  = true
 }
 
-## Authors
-
-- Kaviya
-  - Email: kaviyamanikandank@gmail.com
