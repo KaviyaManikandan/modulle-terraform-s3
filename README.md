@@ -1,19 +1,22 @@
-# Terraform S3 Bucket Module
+# Terraform AWS S3 Module
 
-This Terraform module creates an S3 bucket on AWS with configurable options.
+This Terraform module creates an S3 bucket in AWS with customizable settings.
 
 ## Features
 
-- Creates an S3 bucket with configurable options.
-- Allows specifying the bucket name, ACL, and versioning.
+- **Bucket Name (Required):** The name of the S3 bucket.
+- **Bucket ACL (Optional, Default: "private"):** The access control list (ACL) for the bucket.
+- **Versioning (Optional, Default: false):** Whether versioning should be enabled for the bucket.
+
+This module follows best practices for Terraform module structure, uses variables and outputs appropriately, and makes use of the official AWS provider.
 
 ## Usage
 
 ```hcl
-module "s3-bucket" {
-  source      = "git::https://github.com/KaviyaManikandan/terraform-s3-bucket.git"
-  bucket_name = "myy-terraform-buckett"
-  bucket_acl  = "private"
-  versioning  = true
+module "s3_bucket" {
+  source  = "git::https://github.com/your_username/terraform-aws-s3-module.git"
+  bucket_name = "my-bucket"
+  bucket_acl = "private"
+  versioning = true
 }
 
