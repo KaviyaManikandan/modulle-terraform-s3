@@ -15,8 +15,11 @@ This module follows best practices for Terraform module structure, uses variable
 
 ## Purpose of the module
 -It helps easily set up Amazon S3 storage buckets in your Terraform projects.
+
 -You can specify bucket details like its name, who can access it, and if versioning is enabled.
+
 -It makes managing AWS storage simpler and more consistent across your projects.
+
 -With this module, you can quickly create secure and reliable storage for your applications and data on AWS.
 
 ## Prerequisites
