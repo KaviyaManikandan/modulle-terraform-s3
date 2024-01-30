@@ -11,6 +11,7 @@
 
 ## Prerequisites
 -AWS account access.
+
 -Terraform installed.
 
 ## Step by Step guide to Create a Terraform module that deploys an S3 bucket on AWS.
@@ -33,6 +34,7 @@ module "s3-bucket" {
 ## Step 2 : Save in a Folder: 
 
 -Create a folder for your Terraform configuration files. 
+
 -Inside this folder, create a main.tf file where you'll use the module. 
 
 ## Step 3 : Open the terminal
