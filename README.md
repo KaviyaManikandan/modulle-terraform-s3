@@ -49,6 +49,7 @@ Run the following command to initialize Terraform in your working directory:
 ```
 terraform init
 ```
+
 ![Open the terminal](init.png)
 
 ## Step 5 : Review the Execution Plan
@@ -58,6 +59,7 @@ Generate and review the Terraform execution plan before applying changes:
 ```
 terraform plan
 ```
+
 ![execute plan](plan.png)
 
 ## Step 6 : Apply Changes
@@ -67,6 +69,7 @@ Apply the Terraform configuration to create the S3 bucket:
 ```
 terraform apply
 ```
+
 ![apply](apply.png)
 
 Step 7 : Verify Resources
@@ -82,6 +85,7 @@ If you no longer need the resources created by Terraform, you can destroy them u
 ```
 terraform destroy
 ```
+
 ![bucket destroyed](destroy.png)
 
 ## Author
