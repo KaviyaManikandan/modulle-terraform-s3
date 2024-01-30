@@ -1,4 +1,4 @@
-# Terraform AWS S3 Module
+## Step by Step guide to Create a Terraform module that deploys an S3 bucket on AWS.
 
 ## Purpose of the module
 -It helps easily set up Amazon S3 storage buckets in your Terraform projects.
@@ -13,8 +13,6 @@
 -AWS account access.
 
 -Terraform installed.
-
-## Step by Step guide to Create a Terraform module that deploys an S3 bucket on AWS.
 
 ## Step 1: Copy the Module: 
 
