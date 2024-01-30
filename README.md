@@ -35,7 +35,7 @@ module "s3-bucket" {
 
 -Inside this folder, create a main.tf file where you'll use the module. 
 
-![save in a folder](s3-module.png)
+![save in a folder](Reference-Images/s3-module.png)
 
 
 ## Step 3 : Open the terminal
@@ -50,7 +50,7 @@ Run the following command to initialize Terraform in your working directory:
 terraform init
 ```
 
-![Open the terminal](init.png)
+![Open the terminal](Reference-Images/init.png)
 
 ## Step 5 : Review the Execution Plan
 
@@ -60,7 +60,7 @@ Generate and review the Terraform execution plan before applying changes:
 terraform plan
 ```
 
-![execute plan](plan.png)
+![execute plan](Reference-Images/plan.png)
 
 ## Step 6 : Apply Changes
 
@@ -70,13 +70,13 @@ Apply the Terraform configuration to create the S3 bucket:
 terraform apply
 ```
 
-![apply](apply.png)
+![apply](Reference-Images/apply.png)
 
 Step 7 : Verify Resources
 
 Navigate to the AWS Management Console and verify that the S3 bucket is created with the desired configurations.
 
-![bucket created](created-s3buc.png)
+![bucket created](Reference-Images/created-s3buc.png)
 
 Step 8 : Cleanup (Optional)
 
@@ -86,7 +86,7 @@ If you no longer need the resources created by Terraform, you can destroy them u
 terraform destroy
 ```
 
-![bucket destroyed](destroy.png)
+![bucket destroyed](Reference-Images/destroy.png)
 
 ## Author
 
