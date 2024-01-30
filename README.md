@@ -11,7 +11,11 @@ This Terraform module creates an S3 bucket in AWS with customizable settings.
 
 This module follows best practices for Terraform module structure, uses variables and outputs appropriately, and makes use of the official AWS provider.
 
-## Usage
+## Introduction
+
+Briefly introduce the purpose of the module and any prerequisites
+
+## Terraform configuration
 
 ```hcl
 
@@ -24,3 +28,44 @@ module "s3-bucket" {
   bucket_name = "kaviyamanikandanbuc"
   bucket_acl  = "private"
 }
+
+```
+
+## Step 1: Terraform Initialization
+
+Run the following command to initialize Terraform in your working directory:
+
+```
+terraform init
+```
+## Step 2: Review the Execution Plan
+
+Generate and review the Terraform execution plan before applying changes:
+
+```
+terraform plan
+```
+
+## Step 3: Apply Changes
+
+Apply the Terraform configuration to create the S3 bucket:
+
+```
+terraform apply
+```
+
+Step 4: Verify Resources
+
+Navigate to the AWS Management Console and verify that the S3 bucket is created with the desired configurations.
+
+Step 5:Cleanup (Optional)
+
+If you no longer need the resources created by Terraform, you can destroy them using the following command:
+
+```
+terraform destroy
+```
+
+## Author
+
+- [Kaviya](https://github.com/KaviyaManikandan)
