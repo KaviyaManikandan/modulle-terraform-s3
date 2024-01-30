@@ -1,18 +1,5 @@
 # Terraform AWS S3 Module
 
-This Terraform module creates an S3 bucket in AWS with customizable settings.
-
-## Features
-
-- Creates an S3 bucket with customizable configurations.
-- Supports enabling versioning for the bucket.
-- Configurable server-side encryption for objects.
-- Blocks public access to the bucket by default.
-
-This module follows best practices for Terraform module structure, uses variables and outputs appropriately, and makes use of the official AWS provider.
-
-## Introduction
-
 ## Purpose of the module
 -It helps easily set up Amazon S3 storage buckets in your Terraform projects.
 
