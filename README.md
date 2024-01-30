@@ -91,3 +91,9 @@ terraform destroy
 ## Author
 
 - [Kaviya](https://github.com/KaviyaManikandan)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
