@@ -35,6 +35,9 @@ module "s3-bucket" {
 
 -Inside this folder, create a main.tf file where you'll use the module. 
 
+![save in a folder](s3-module.png)
+
+
 ## Step 3 : Open the terminal
 
 Navigate to the directory where the main.tf file is located (the folder you created in step 2)
