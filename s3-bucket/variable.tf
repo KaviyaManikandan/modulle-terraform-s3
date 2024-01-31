@@ -15,5 +15,5 @@ variable "bucket_acl" {
 
 variable "versioning_enabled" {
   description = "Whether versioning should be enabled for the bucket."
-  default     = false
+  default     = "Enabled"
 }
